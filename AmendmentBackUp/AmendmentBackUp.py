@@ -133,7 +133,8 @@ class AmendmentBackUp(object):
 
         msg = '''
         ############################################################
-        ABU ran successfully. Meta data saved to _abu, including:
+        ABU ran successfully. 
+        Meta data saved to _abu_{timestamp}, including:
            - abu_log.txt      Log file
            - abu_obj.pickle   ABU object of this backup
            - dir1_tree.txt    Tree structure of dir1 (source)
